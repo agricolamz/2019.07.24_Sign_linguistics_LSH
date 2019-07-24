@@ -1,8 +1,6 @@
 \documentclass[13pt, t]{beamer}
 % Presento style file
 \usepackage{config/presento}
-\usepackage{graphicx}
-\usepackage{movie15}
 \usepackage{hyperref}
 %\graphicspath{ {images/} }
 
@@ -35,8 +33,17 @@
 \begin{frame}{Мифы про ЖЯ:}
 \begin{itemize}
     \item ЖЯ --- не один язык, а много языков 
+    \item Русский жестовый язык --- это не русский язык, передаваемый жестами 
+\end{itemize}
+\includegraphics[width=\linewidth]{images/02-Rus-RSL}
+\end{frame}
+
+
+\begin{frame}{Мифы про ЖЯ:}
+\begin{itemize}
+    \item ЖЯ --- не один язык, а много языков 
+    \item Русский жестовый язык --- это не русский язык, передаваемый жестами 
     \item Жестикуляция --- это не ЖЯ \pause
-    \item Русский жестовый язык --- это не русский язык, передаваемый жестами \pause
     \item В ЖЯ есть грамматика \pause
     \item Глухонемые? Нет, глухие \pause
     \item Существует жестовый театр, жестовые стихи и жестовое пение
@@ -50,9 +57,8 @@
         \item[16-ый век] может быть, все были не правы, но это не точно \pause
         \item[конец 18-ого --- начало 19-ого века] Возникновение школ для глухих (а именно 1760-е, Париж, Abbé Charles-Michel de l’Epée)
     \end{description}
-\includemovie{2cm}{2cm}{images/delepe.gif}
-% AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-% Гарик, оно не работает, помоги, пожалуйста
+    \includegraphics[width=0.49\linewidth]{images/delepe}
+    \includegraphics[width=0.49\linewidth]{images/delepe2}
 \end{frame}
 
 \begin{frame}{Как все неправильно поняли Аристотеля}
@@ -60,7 +66,7 @@
         \item[16-ый век] может быть, все были не правы, но это не точно
         \item[конец 18-ого --- начало 19-ого века] Возникновение школ для глухих (а именно 1760-е, Париж, Abbé Charles-Michel de l’Epée)
         \item[1864] Gallaudet University \pause
-        \item[2/2 18-juj]
+        \item[2/2 18-ого века] Орализм
         \item[1960 год] Стоуки написал первое лингвистическое исследование
     \end{description}
 \end{frame}
@@ -68,9 +74,15 @@
 \section{Грамматические особенности РЖЯ} % Гарик
 \begin{frame}{Грамматика РЖЯ}
 \begin{itemize}
+    \item дактильная азбука
     \item нет падежей
     \item посессивная конструкция (мой мальчик)
-    \item отрицание
+    \item немануальное отрицание
+    \item много повторов
+    \item инициализированные жесты
+    \item слабое различие между частями речи
+    \item согласующиеся глаголы
+    \item возможная нелинейность жестов
 \end{itemize}
 \end{frame}
 
@@ -80,35 +92,46 @@
     \item Иконичность
     \item Одновременность
 \end{itemize}
-\includegraphics[width=\linewidth]{images/test}
 \end{frame}
 
 \section{Фонетика и фонология} % Гарик
 
-\section{Автоматическое распознавание ЖЯ} % Аня
-\begin{frame}{Автоматическое распознавание ЖЯ}
-    \begin{itemize}
-        \item openCV
-        \item openPose
-    \end{itemize}
+\begin{frame}{Звуковая сторона}
+
 \end{frame}
 
-\begin{frame}{OpenPose для распознавания ЖЯ}
-    ???
+\section{Автоматическое распознавание ЖЯ} % Аня
+\begin{frame}{Автоматическое распознавание ЖЯ}
+    \includegraphics[width=\linewidth]{images/open-pose}
 \end{frame}
 
 \begin{frame}{Распознавание русского жестового языка}
-    virtually nonexistent
+    \includegraphics[width=0.49\linewidth]{images/vljubit'sja_frame1.jpg}
+    \includegraphics[width=0.49\linewidth]{images/vljubit'sja_frame2.jpg}
 \end{frame}
 
 \section{Песня, стихи и т. п.} % Гарик и Аня
 \begin{frame}{Жестовая песня}
-    https://www.youtube.com/watch?v=n-lNtm1lKsw
+\begin{itemize}
+    \item \href{https://www.youtube.com/watch?v=n-lNtm1lKsw}{Жестовая песня}
+    \item \href{https://youtu.be/EuD2iNVMS_4?t=285}{Жестовая музыка}
+\end{itemize}
 \end{frame}
 
-\begin{frame}{Стихи}
-https://www.youtube.com/watch?v=TvN0VwT3BJ8 
-Я не уверена что это то, что мы хотим тут рассказывать 
+\begin{frame}{Где учить?}
+Словарь на разных ЖЯ: spreadthesign.com
+РЖЯ в Москве:
+\begin{itemize}
+    \item Центр образования глухих и жестового языка
+    \item МГЛУ
+    \item НИУ ВШЭ
+\end{itemize}
+
 \end{frame}
+
+\framecard[colorblue]{{\color{colorwhite} \Large Пишите нам!\\
+anna.klezovich@yandex.ru\\
+agricolamz@gmail.com\\ 
+\vfill Presentation is available here: \\tinyurl.com/yxbkl3ke}}
 
 \end{document}
